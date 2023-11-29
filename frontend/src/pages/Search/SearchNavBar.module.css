@@ -1,0 +1,51 @@
+.btn {
+    border-radius: 25px;
+    width: 125px;
+}
+
+.searchtogglecontainer {
+    gap: 5px;
+    height: 60px;
+}
+
+.dropdown {
+    
+}
+
+.clearButton {
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border-color: transparent;
+    position: relative;
+}
+
+.calandarIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 1.5em;
+    height: 38px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.calandarIcon:hover {
+    transform: scale(1.2); /* Increase the size on hover */
+}
+
+.navbar {
+    height: 32px;
+    padding: 0px;
+    position: relative;;
+}
+
+.floatRight {
+    position: absolute;
+    right: 25px;
+    width: 150px;
+}
